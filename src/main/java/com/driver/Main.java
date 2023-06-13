@@ -18,8 +18,8 @@ public class Main {
          int x = 3;
          int y = 4;
          int z = 5;
-         System.out.println(p.product(x,y));
-         System.out.println(p.product(3,4,5));
-         System.out.println(p.product(a,b));
+         p.product(x,y);
+         p.product(3,4,5);
+         p.product(a,b);
      }
 }
